@@ -4,8 +4,9 @@ import { Outlet } from 'react-router-dom'
 const GuestLayout = () => {
     return (
         <>
-            <di>Guest layout</di>
-            <Outlet />
+            <div className='flex justify-center items-center w-full h-screen'>
+                <Outlet />
+            </div>
         </>
     )
 }
